@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practising CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 1800px;
+        }
+        .container{
+            position: relative;
+            width: 300px;
+            height: 600px;
+            background-color: aqua;
+            margin: 100px;
+        }
+        .box{
+            color: white;
+            width: 100px;
+            height: 100px;
+        }
+        .red{
+            background-color: red;
+            position: relative;
+            /* left: 100px; */
+            /* top: 100px; */
+        }
+        .blue{
+            position: absolute;
+            background-color: blue;
+            bottom: 0;
+            right: 0;
+        }
+        .yellow{
+            background-color: yellow;
+            position: fixed;
+            left: 100px;
+            top: 500px;
+
+        }
+        .pink{
+            background-color: pink;
+            position: sticky;
+            top: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Home Page</h2>
+    <h2>Position in CSS</h2>
+    <div class="container">
+        <div class="box red">RELATIVE</div>
+        <div class="box blue">ABSOLUTE</div>
+        <div class="box yellow">FIXED</div>
+        <div class="box pink">STICKY</div>
+    </div>
+</body>
+</html>
