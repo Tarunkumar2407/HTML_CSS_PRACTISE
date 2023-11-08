@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* first way of doing center a div */
+        /* .box{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        } */
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+        }
+        /* second way of doing center a div; */
+        /* body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        /* third way of doing center a div; */
+        body{
+            display: grid;
+            height: 100vh;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
