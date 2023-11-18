@@ -457,3 +457,27 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 //  }
 
 //  console.log(obj?.address?.houseNo?.no)
+
+//call apply bind
+
+// function about(hobby, favPlayer) {
+//     console.log(`My name is ${this.name} and age is ${this.age} My hobbie is ${hobby}, and my Fav player is ${favPlayer}`)
+// }
+// const person1 = {
+//     name: "Tarun",
+//     age: 24,
+    
+// }
+
+// const person2 = {
+//     name: "Ankur",
+//     age: 26
+// }
+
+// about.call(person1, "singing", "Rohit")
+// about.call(person2, "singing", "Rohit")
+// about.apply(person1, ["singing", "Rohit"])
+// const ans = about.bind(person1, "Coding", "Virat")
+// ans()
+// // console.log(ans)
+
