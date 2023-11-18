@@ -335,3 +335,45 @@
 // }
 // const ans = calculate(4, 5, addition)
 // console.log(ans)
+
+
+// function myFunc() {
+//     function hello(){
+//         console.log("hello world")
+//     }
+//     return hello;
+// }
+// const ans = myFunc()
+// ans();
+// console.log(ans)
+
+const arr = [1, 2, 6, 34, 23, 67, 23]
+
+// arr.forEach((value, index, array)=> {
+//        console.log(value * 2, index, array)
+// })
+
+// const arr1 = arr.map((value)=> {
+//     return value * 2;
+// })
+// console.log(arr1)
+
+// const arr1 = arr.filter((value) => {
+//     return value%2 == 0
+// })
+// console.log(arr1)
+
+// const arr1 = arr.reduce((acc, cur) => {
+//       if(cur > acc){
+//         acc = cur
+//       }
+//       return acc;
+// })
+
+// console.log(arr1)
+
+// arr.sort((a, b)=> {
+//     return b - a;
+// })
+
+// console.log(arr)
