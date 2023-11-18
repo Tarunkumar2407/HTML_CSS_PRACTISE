@@ -480,4 +480,25 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 // const ans = about.bind(person1, "Coding", "Virat")
 // ans()
 // // console.log(ans)
+// function myFunc(){
+//     "use strict"
+//     console.log(this)
+// }
+// myFunc()
+
+// const obj1 = {
+//     key1: "value1",
+//     key2: "value2"
+// }
+
+// // const obj2 = Object.create(obj1)
+// const obj2 = {
+//     key4: "value4"
+// };
+// obj2.__proto__ = obj1
+// obj2.key3 = "value3"
+
+// console.log(obj1)
+// console.log(obj2)
+// console.log(obj2.key1)
 
