@@ -252,3 +252,36 @@
 // }
 
 // consoleAlpha();
+
+// const key = "email"
+// const obj = {
+//     name: "Tarun",2
+//     age: 24,
+//     gender: "male"
+// }
+// obj.hobbies = ["Dancing", "Singing"]
+// console.log(obj)
+// console.log(obj.name)
+// console.log(obj["name"])
+// console.log(obj.hobbies[1])
+// obj[key] = "tarun@gmail.com"
+// console.log(obj)
+
+// for(let key in obj){
+//     console.log(key, obj[key])
+// }
+
+// console.log(Object.keys(obj))
+// console.log(Object.values(obj))
+// console.log(Object.entries(obj))
+
+// const keys = Object.keys(obj)
+// for(let key in keys){
+//     console.log(key)
+// }
+// for(let values of Object.values(obj)){
+//     console.log(values)
+// }
+// for(let key of Object.keys(obj)){
+//     console.log(key, obj[key])
+// }
