@@ -427,3 +427,33 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 //  delete obj.gender
 //  console.log(obj)
 
+// const person = new Map();
+
+// person.set("name", "Tarun")
+// person.set("gender", "male")
+// console.log(person)
+// console.log(person.get("name"))
+// console.log(person.keys())
+// console.log(person.values())
+// console.log(person.entries())
+
+//  const obj = {
+//     name: "Tarun",
+//     gender: "male"
+//  }
+
+//  const obj1 = {
+//     mobile: 8279700000,
+//     address: "Noida"
+//  }
+
+//  const obj2 = Object.assign(obj, obj1 )
+//  console.log(obj2)
+
+// const obj = {
+//     name: "Tarun",
+//     gender: "male",
+//     // address: {houseNo: 24, city: "Noida"}
+//  }
+
+//  console.log(obj?.address?.houseNo?.no)
