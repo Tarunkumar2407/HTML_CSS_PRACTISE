@@ -285,3 +285,53 @@
 // for(let key of Object.keys(obj)){
 //     console.log(key, obj[key])
 // }
+
+// let arr1 = ["item1", "item2"]
+// let arr2 = ["item3", "item4"]
+
+// const newArray = [...arr1, ...arr2]
+// console.log(newArray)
+
+// const arr3 = [..."abcde"]
+// console.log(arr3)
+
+// const arr4 = [..."1234566789"]
+// console.log(arr4)
+
+// const users = [
+//     {userID: 1, firstName: "Tarun", gender: "male"},
+//     {userID: 2, firstName: "Kanika", gender: "female"},
+//     {userID: 3, firstName: "Amrit", gender: "female"}
+// ]
+// for(let user of users){
+//     console.log(user.userID)
+//     console.log(user.firstName)
+//     console.log(user.gender)
+// }
+
+// const [{userID}, {firstName}, {gender}] = users
+
+// console.log(userID, firstName, gender)
+
+// function myFunc2(name){
+//     //  console.log("hi i am a callback function")
+//     //  console.log("hi my name is", name)
+//     return `Hi my name is ${name}`
+// }
+
+// function myFunc(callback){
+//     // console.log("hi i am a function")
+//     return callback("harshit")
+// }
+// const ans = myFunc(myFunc2)
+// console.log(ans)
+
+// function calculate(a, b, callback){
+//     return callback(a, b)
+// }
+
+// function addition(a, b){
+//     return a + b;
+// }
+// const ans = calculate(4, 5, addition)
+// console.log(ans)
