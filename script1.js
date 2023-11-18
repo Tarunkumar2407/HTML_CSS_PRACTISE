@@ -377,3 +377,53 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 // })
 
 // console.log(arr)
+
+
+// const obj = {
+//     name: "Tarun",
+//     gender: "male"
+// }
+// for(let value of obj){
+//     console.log(value)
+// }
+
+// const numbers = new Set();
+// numbers.add(1);
+// numbers.add(2)
+// numbers.add(["item1","item2"])
+// numbers.add(["item1","item2"])
+// console.log(numbers)
+
+// if(numbers.has(1)){
+//     console.log(" 1 is present")
+// }
+// else{
+//     console.log("1 is not present")
+// }
+
+// console.log(numbers.size)
+// numbers.delete(2)
+// console.log(numbers)
+// console.log(numbers.size)
+
+// const myArr = [1, 2, 3, 4, 5, 6, 6, 3, 5, 8]
+// const myArr1 = new Set(myArr)
+
+// console.log(myArr.length)
+// console.log(myArr1)
+
+// console.log(myArr1.size)
+
+// console.log(myArr)
+//  delete myArr[4]
+//  console.log(myArr.length)
+//  console.log(myArr)
+
+//  const obj = {
+//     name: "Tarun",
+//     gender: "male"
+//  }
+
+//  delete obj.gender
+//  console.log(obj)
+
