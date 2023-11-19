@@ -682,3 +682,31 @@
 // console.log(kitty.eat())
 // console.log(kitty.isCute())
 // console.log(kitty.isFast())
+
+//Static method
+// class Mobile{
+//     static sim(){
+//         return `I am Static method`
+//     }
+// }
+
+// console.log(Mobile.sim())
+
+class Person {
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    get myName(){
+        return `my name is ${this.name}`
+    }
+
+    set newName(name){
+        this.name = name;
+    }
+}
+
+const person1 = new Person("Tarun", 24)
+console.log(person1.myName)
+person1.newName = "Rohit"
+console.log(person1.myName)
