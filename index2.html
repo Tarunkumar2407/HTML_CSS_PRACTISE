@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width, sinitial-scale=1.0">
     <title>Document</title>
     <script src="script1.js"defer></script>
+    <style>
+        .box{
+            border: 1px solid black;
+            min-width: 100px;
+            min-height: 100px;
+            padding: 50px;
+        }
+        .grand-parent{
+            background-color: chartreuse;
+        }
+        .parent{
+            background-color: yellow;
+        }
+        .child{
+            background-color: rgb(236, 239, 4);
+        }
+    </style>
 </head>
 <body>
-   
+   <div class="grand-parent box">Grand Parent
+    <div class="parent box">Parent
+        <div class="child box">child</div>
+    </div>
+   </div>
 </body>
 </html>

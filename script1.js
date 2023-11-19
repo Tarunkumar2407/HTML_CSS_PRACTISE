@@ -530,4 +530,45 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 // }
 
 
+const grandParent = document.querySelector(".grand-parent")
+// console.log(grandParent)
+const parent = document.querySelector(".parent")
+// console.log(parent)
+const child = document.querySelector(".child")
+// console.log(child)
+const body = document.body
+// console.log(body)
 
+
+//capturing event
+// grandParent.addEventListener("click", ()=> {
+//     console.log("captured grand parent!!!")
+// },true)
+// parent.addEventListener("click", ()=> {
+//     console.log("captured parent!!!")
+// },true)
+// child.addEventListener("click", ()=> {
+//     console.log("captured child!!!")
+// },true)
+// body.addEventListener("click", ()=> {
+//     console.log("captured body!!!")
+// },true)
+
+//bubbling event
+// grandParent.addEventListener("click", ()=> {
+//     console.log("bubbled grand parent!!!")
+// })
+// parent.addEventListener("click", ()=> {
+//     console.log("bubbled parent!!!")
+// })
+// child.addEventListener("click", ()=> {
+//     console.log("bubbled child!!!")
+// })
+// body.addEventListener("click", ()=> {
+//     console.log("bubbled body!!!")
+// })
+
+//event delegation
+// grandParent.addEventListener("click", (e)=>{
+//        console.log(e.target.textContent)
+// })
