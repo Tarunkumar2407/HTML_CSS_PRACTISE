@@ -692,21 +692,21 @@
 
 // console.log(Mobile.sim())
 
-class Person {
-    constructor(name, age){
-        this.name = name;
-        this.age = age;
-    }
-    get myName(){
-        return `my name is ${this.name}`
-    }
+// class Person {
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//     }
+//     get myName(){
+//         return `my name is ${this.name}`
+//     }
 
-    set newName(name){
-        this.name = name;
-    }
-}
+//     set newName(name){
+//         this.name = name;
+//     }
+// }
 
-const person1 = new Person("Tarun", 24)
-console.log(person1.myName)
-person1.newName = "Rohit"
-console.log(person1.myName)
+// const person1 = new Person("Tarun", 24)
+// console.log(person1.myName)
+// person1.newName = "Rohit"
+// console.log(person1.myName)
