@@ -572,3 +572,26 @@ const body = document.body
 // grandParent.addEventListener("click", (e)=>{
 //        console.log(e.target.textContent)
 // })
+
+
+// const ticket = new Promise((resolve, reject)=> {
+//     setTimeout(() => {
+//         const flight = true;
+//         if(flight){
+//             resolve("you are in a flight")
+//         }
+//         else{
+//             reject("your flight is cancelled")
+//         }
+//     })
+// })
+// ticket 
+//       .then((data) => {
+//         console.log(data)
+//         data += " Happy journey!!!"
+//         return data
+//       })
+//       .then((data)=> {
+//         console.log(data)
+//       })
+
