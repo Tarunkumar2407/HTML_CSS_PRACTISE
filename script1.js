@@ -645,3 +645,40 @@
 
 // func.mybind()
 // console.log(window)
+
+// class Animal {
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//     }
+//     eat() {
+//         return `${this.name} is eating`
+//     }
+//     isCute() {
+//         if(this.age < 2){
+//             return `${this.name} is cute`
+//         }
+//         else{
+//             return `${this.name} is adult now`
+//         }
+//     }
+// }
+
+// class Cat extends Animal{
+//     constructor(name, age, speed){
+//         super(name, age)
+//         this.speed = speed;
+//     }
+//     isFast() {
+//         return `Speed of ${this.name} is ${this.speed} kmph`
+//     }
+// }
+
+// const dog = new Animal("Tommy", 3)
+// console.log(dog.eat())
+// console.log(dog.isCute())
+
+// const kitty = new Cat("Kitty", 1, 40)
+// console.log(kitty.eat())
+// console.log(kitty.isCute())
+// console.log(kitty.isFast())
