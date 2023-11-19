@@ -347,7 +347,7 @@
 // ans();
 // console.log(ans)
 
-const arr = [1, 2, 6, 34, 23, 67, 23]
+// const arr = [1, 2, 6, 34, 23, 67, 23]
 
 // arr.forEach((value, index, array)=> {
 //        console.log(value * 2, index, array)
@@ -530,13 +530,13 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 // }
 
 
-const grandParent = document.querySelector(".grand-parent")
-// console.log(grandParent)
-const parent = document.querySelector(".parent")
-// console.log(parent)
-const child = document.querySelector(".child")
-// console.log(child)
-const body = document.body
+// const grandParent = document.querySelector(".grand-parent")
+// // console.log(grandParent)
+// const parent = document.querySelector(".parent")
+// // console.log(parent)
+// const child = document.querySelector(".child")
+// // console.log(child)
+// const body = document.body
 // console.log(body)
 
 
@@ -595,3 +595,53 @@ const body = document.body
 //         console.log(data)
 //       })
 
+//  function hello(){
+//     console.log("hello world")
+//  }
+//  console.log(hello.name)
+
+// //  console.log(hello.prototype)
+
+//  hello.prototype.abc = "abc"
+//  hello.prototype.xyz = "xyz"
+
+//  console.log(hello.prototype)
+
+// const arr = [];
+// console.log(arr)
+
+// const obj = {
+//     name: "Tarun",
+//     city: "Noida"
+// }
+
+// function func() {
+
+// }
+
+// console.log(arr.prototype)
+// console.log(obj.prototype)
+// console.log(func.prototype)
+
+// console.log(arr.__proto__)
+// console.log(arr.__proto__.__proto__)
+// console.log(arr.__proto__.__proto__.__proto__)
+
+
+// console.log(obj.__proto__)
+// console.log(obj.__proto__.__proto__)
+
+// console.log(func.__proto__)
+// console.log(func.__proto__.__proto__)
+// console.log(func.__proto__.__proto__.__proto__)
+
+// Function.prototype.mybind = function() {
+//     console.log("hello i am bind function")
+// }
+
+// function func() {
+
+// }
+
+// func.mybind()
+// console.log(window)
