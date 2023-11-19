@@ -502,3 +502,32 @@ const arr = [1, 2, 6, 34, 23, 67, 23]
 // console.log(obj2)
 // console.log(obj2.key1)
 
+// const rootNode = document.getRootNode()
+
+// console.log(rootNode)
+// // // console.log(rootNode.childNodes[1])
+// const htmlElement = rootNode.childNodes[1]
+// console.log(htmlElement.childNodes)
+
+// const body = document.body
+// console.log(body)
+
+
+// const button = document.getElementsByClassName("btn")[0]
+// const clickMe = () => {
+//     console.log("You clicked me")
+//     console.log("Value of this is printed below")
+//     console.log(this)
+// }
+// const buttons = document.querySelectorAll(".btn")
+// console.log(buttons)
+// for(let button of buttons){
+//     button.addEventListener("click", (e) => {
+//         e.target.style.backgroundColor = "yellow"
+//         e.target.style.color = "white"
+// console.log(e.target)
+//     })
+// }
+
+
+
