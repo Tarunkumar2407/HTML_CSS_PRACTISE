@@ -710,3 +710,21 @@
 // console.log(person1.myName)
 // person1.newName = "Rohit"
 // console.log(person1.myName)
+
+
+// let foo = "foo";
+// console.log(foo);
+// function getFullName(firstName, lastName){
+//     console.log(arguments);
+//     let myVar = "var inside func";
+//     console.log(myVar);
+//     const fullName = firstName + " " + lastName;
+//     return fullName;
+// }
+
+// const personName = getFullName("Tarun", "Kumar")
+// console.log(personName)
+
+// document.cookie = "username = John Doe ; expires = Thur, 18 Dec 2023, 12:00:00 UTC";
+
+// console.log(document.cookie)
