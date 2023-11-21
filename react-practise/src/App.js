@@ -1,12 +1,20 @@
 import './App.css';
-import User from './components/Class';
-import Functional from './components/Functional';
+import HideShow from './components/HideShow';
+// import User from './components/Class';
+// import ClickEvent from './components/ClickEvent';
+// import Functional from './components/Functional';
+// import InputBoxValue from './components/InputBoxValue';
+// import PropsParent from './components/props/PropsParent';
 
 function App() {
   return (
     <div className="App">
-      <Functional />
+      {/* <Functional />
       <User />
+      <ClickEvent />
+      <PropsParent />
+      <InputBoxValue /> */}
+      <HideShow />
     </div>
   );
 }
