@@ -1,9 +1,12 @@
 import './App.css';
 import Parent from './components/LiftingStateUp/Parent';
 import PropsParent from './components/PropsDrilling.js/PropsParent';
+import UseReducer from './components/useStateHook/useReducerHook.js/UseReducer';
 import ParentCallback from './components/useCallbackHook/ParentCallback';
+import Counter1 from './components/useCustomHook/Counter1';
 import UseMemo from './components/useMemoHook/UseMemo';
 import UseRef from './components/useRefHook.js/UseRef';
+import UseReducerHook2 from './components/useStateHook/useReducerHook.js/UseReducerHook2';
 // import ConditionalRendering from './components/ConditionalRendering';
 // import HandleForm from './components/HandleForm';
 // import HideShow from './components/HideShow';
@@ -39,7 +42,10 @@ function App() {
       {/* <UseMemo /> */}
       {/* <UseRef /> */}
       {/* < ParentCallback /> */}
-      < PropsParent />
+      {/* < PropsParent /> */}
+      {/* <Counter1 /> */}
+      {/* <UseReducer /> */}
+      <UseReducerHook2 />
     </div>
   );
 }
