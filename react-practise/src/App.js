@@ -1,12 +1,15 @@
-import './App.css';
-import Parent from './components/LiftingStateUp/Parent';
-import PropsParent from './components/PropsDrilling.js/PropsParent';
-import UseReducer from './components/useStateHook/useReducerHook.js/UseReducer';
-import ParentCallback from './components/useCallbackHook/ParentCallback';
-import Counter1 from './components/useCustomHook/Counter1';
-import UseMemo from './components/useMemoHook/UseMemo';
-import UseRef from './components/useRefHook.js/UseRef';
-import UseReducerHook2 from './components/useStateHook/useReducerHook.js/UseReducerHook2';
+import "./App.css";
+import Parent from "./components/LiftingStateUp/Parent";
+import PropsParent from "./components/PropsDrilling.js/PropsParent";
+import UseReducer from "./components/useStateHook/useReducerHook.js/UseReducer";
+import ParentCallback from "./components/useCallbackHook/ParentCallback";
+import Counter1 from "./components/useCustomHook/Counter1";
+import UseMemo from "./components/useMemoHook/UseMemo";
+import UseRef from "./components/useRefHook.js/UseRef";
+import UseReducerHook2 from "./components/useStateHook/useReducerHook.js/UseReducerHook2";
+import { Provider } from "react-redux";
+import store from "./components/Redux/Store";
+import CakeContainer from "./components/Redux/CakeContainer";
 // import ConditionalRendering from './components/ConditionalRendering';
 // import HandleForm from './components/HandleForm';
 // import HideShow from './components/HideShow';
@@ -25,27 +28,9 @@ import UseReducerHook2 from './components/useStateHook/useReducerHook.js/UseRedu
 function App() {
   return (
     <div className="App">
-      {/* <Functional />
-      {/* <User /> */}
-      {/* <ClickEvent /> */}
-      {/* <PropsParent /> */}
-      {/* <InputBoxValue /> */}
-      {/* <HideShow /> */}
-      {/* <HandleForm /> */}
-      {/* <ConditionalRendering /> */}
-      {/* <ToDoList /> */}
-      {/* <WithObject /> */}
-      {/* <WtihArray /> */}
-      {/* <UseEffectt /> */}
-      {/* <RenderingList /> */}
-      {/* <Parent /> */}
-      {/* <UseMemo /> */}
-      {/* <UseRef /> */}
-      {/* < ParentCallback /> */}
-      {/* < PropsParent /> */}
-      {/* <Counter1 /> */}
-      {/* <UseReducer /> */}
-      <UseReducerHook2 />
+      <Provider store={store}>
+        <CakeContainer />
+      </Provider>
     </div>
   );
 }
