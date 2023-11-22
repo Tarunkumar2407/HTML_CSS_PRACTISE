@@ -7,9 +7,9 @@ import Counter1 from "./components/useCustomHook/Counter1";
 import UseMemo from "./components/useMemoHook/UseMemo";
 import UseRef from "./components/useRefHook.js/UseRef";
 import UseReducerHook2 from "./components/useStateHook/useReducerHook.js/UseReducerHook2";
+import CakeContainer from "./components/Redux.js/Cake/CakeContainer";
 import { Provider } from "react-redux";
-import store from "./components/Redux/Store";
-import CakeContainer from "./components/Redux/CakeContainer";
+import store from "./components/Redux.js/Cake/Store";
 // import ConditionalRendering from './components/ConditionalRendering';
 // import HandleForm from './components/HandleForm';
 // import HideShow from './components/HideShow';
@@ -27,11 +27,11 @@ import CakeContainer from "./components/Redux/CakeContainer";
 
 function App() {
   return (
-    <div className="App">
-      <Provider store={store}>
+    <Provider store={store}>
+      <div className="App">
         <CakeContainer />
-      </Provider>
-    </div>
+      </div>
+    </Provider>
   );
 }
 
