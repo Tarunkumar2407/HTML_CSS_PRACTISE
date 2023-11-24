@@ -10,6 +10,7 @@ import UseReducerHook2 from "./components/useStateHook/useReducerHook.js/UseRedu
 import CakeContainer from "./components/Redux.js/Cake/CakeContainer";
 import { Provider } from "react-redux";
 import store from "./components/Redux.js/Cake/Store";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 // import ConditionalRendering from './components/ConditionalRendering';
 // import HandleForm from './components/HandleForm';
 // import HideShow from './components/HideShow';
@@ -24,12 +25,28 @@ import store from "./components/Redux.js/Cake/Store";
 // import ToDoList from './components/useStateHook/ToDoList';
 // import WithObject from './components/useStateHook/WithObject';
 // import WtihArray from './components/useStateHook/WtihArray';
+import Home from "./components/Router/Home";
+import Contact from "./components/Router/Contact";
+import About from "./components/Router/About";
+import Navbar from "./components/Router/Navbar";
+import Page404 from "./components/Router/Page404";
+import User from "./components/Router/User";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <CakeContainer />
+      <BrowserRouter>
+      <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/user/:name" element={<User />}></Route>
+          {/* <Route path="/*" element={<Page404 />}></Route> */}
+          <Route path="/*" element={<Navigate to="/" />}></Route>
+        </Routes>
+      </BrowserRouter>
       </div>
     </Provider>
   );
