@@ -39,3 +39,42 @@
 
 // console.log([] == [])
 // console.log([] === [])
+
+// const promise1 = new Promise((resolve, reject) => {
+//     setTimeout(resolve, 500, 'one');
+//   });
+  
+//   const promise2 = new Promise((resolve, reject) => {
+//     setTimeout(resolve, 100, 'two');
+//   });
+  
+//   Promise.race([promise1, promise2]).then((value) => {
+//     console.log(value);
+//     // Both resolve, but promise2 is faster
+//   });
+
+// var str = "This is a \
+// very lengthy \
+// sentence!";
+// console.log(str)
+
+// try {
+//     greeting("Welcome");
+//     }
+//     catch(err) {
+//     console.log(err.name + "<br>" + err.message);
+//     }
+
+// var marks = [50, 20, 70, 60, 45, 30];
+// console.log(Math.min.apply(null, marks))
+// console.log(Math.max.apply(null, marks))
+
+// let firstName = null;
+// let lastName;
+
+// console.log(Object.is(firstName, null)); // true
+// console.log(Object.is(lastName, null))
+    
+
+// let a = (1, 2, 3)
+// console.log(a)
