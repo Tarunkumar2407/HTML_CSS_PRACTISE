@@ -78,3 +78,11 @@
 
 // let a = (1, 2, 3)
 // console.log(a)
+
+// console.log(Boolean([]))
+// console.log(Boolean([] == false))
+// console.log(![]) 
+
+// var a;
+
+// console.log(Boolean(a))
